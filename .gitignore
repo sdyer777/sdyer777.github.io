@@ -1,0 +1,45 @@
+# Ignore raw art downloads folder
+raw art downloads/
+
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# Xcode specific
+*.xcodeproj/*.xcworkspace/
+*.xcodeproj/*.xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Archives
+*.xcarchive
+
+# Thumbnails
+*.sketch
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftPM
+.build/
+Package.resolved
+
+# Logs
+*.log
+
+# Personal settings
+*.swp
+*.swo
+*.mode1v3
+*.mode2v3
+*.ide
+
+# Git
+.git/
