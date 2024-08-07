@@ -14,6 +14,7 @@
 		96ACECCD2C60110A001847AB /* Original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Original.png; sourceTree = "<group>"; };
 		96ACECCE2C60110A001847AB /* Papyrus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Papyrus.png; sourceTree = "<group>"; };
 		96ACECCF2C60110A001847AB /* ArtGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArtGreen.png; sourceTree = "<group>"; };
+		96ACECD02C642125001847AB /* favico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favico.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -21,6 +22,7 @@
 			isa = PBXGroup;
 			children = (
 				96ACECCB2C60110A001847AB /* AppIcon2.png */,
+				96ACECD02C642125001847AB /* favico.png */,
 				96ACECCF2C60110A001847AB /* ArtGreen.png */,
 				96ACECCC2C60110A001847AB /* Orbs.png */,
 				96ACECCD2C60110A001847AB /* Original.png */,
