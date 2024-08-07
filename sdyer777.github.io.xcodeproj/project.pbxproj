@@ -16,12 +16,14 @@
 		96ACECCF2C60110A001847AB /* ArtGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ArtGreen.png; sourceTree = "<group>"; };
 		96ACECD02C642125001847AB /* favico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favico.png; sourceTree = "<group>"; };
 		96ACECD12C642381001847AB /* favicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favicon.png; sourceTree = "<group>"; };
+		96ACECD22C64255E001847AB /* favico.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favico.ico; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		96ACECC22C5FC9C6001847AB = {
 			isa = PBXGroup;
 			children = (
+				96ACECD22C64255E001847AB /* favico.ico */,
 				96ACECD12C642381001847AB /* favicon.png */,
 				96ACECCB2C60110A001847AB /* AppIcon2.png */,
 				96ACECD02C642125001847AB /* favico.png */,
