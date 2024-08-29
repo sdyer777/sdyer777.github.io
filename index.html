@@ -17,47 +17,85 @@
         <meta name="twitter:image" content="https://keepthinkinggames.com/image1.jpg">
     <title>Keep Thinking Games - Rexxle Puzzle Game</title>
     <link rel="icon" type="image/x-icon" href="favico.ico">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            text-align: center;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .images {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            margin-top: 20px;
-        }
-        .images img {
-            flex: 0 1 calc(25% - 10px);
-            max-width: calc(25% - 10px);
-            height: auto;
-        }
-        @media (max-width: 600px) {
-            .images img {
-                flex: 0 1 calc(50% - 10px);
-                max-width: calc(50% - 10px);
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                text-align: center;
             }
-        }
-        @media (max-width: 400px) {
-            .images img {
-                flex: 0 1 100%;
-                max-width: 100%;
+            a {
+                color: #0066cc;
+                text-decoration: none;
             }
-        }
-    </style>
+            a:hover {
+                text-decoration: underline;
+            }
+            .images {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 20px;
+            }
+            .images img {
+                flex: 0 1 calc(25% - 10px);
+                max-width: calc(25% - 10px);
+                height: auto;
+            }
+            @media (max-width: 600px) {
+                .images img {
+                    flex: 0 1 calc(50% - 10px);
+                    max-width: calc(50% - 10px);
+                }
+            }
+            @media (max-width: 400px) {
+                .images img {
+                    flex: 0 1 100%;
+                    max-width: 100%;
+                }
+            }
+
+            #downloadButton {
+                padding: 10px 20px;
+                font-size: 16px;
+                background-color: #007AFF;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                display: none; /* Hide by default */
+            }
+        </style>
+
 </head>
 <body>
     <h1>Keep Thinking Games</h1>
+    
+    
+    <div id="message" style="font-size: 18px; margin-top: 20px;"></div>
+    <a href="https://apps.apple.com/us/app/your-app-id" target="_blank" id="downloadLink">
+        <button id="downloadButton">Download on the App Store</button>
+    </a>
+
+    <script>
+        function isIOS() {
+            return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        }
+
+        window.onload = function() {
+            if (isIOS()) {
+                document.getElementById('downloadButton').style.display = 'inline-block';
+            } else {
+                document.getElementById('message').innerText = 'Available in the iOS App Store';
+            }
+        };
+    </script>
+
+    
+    
+    
+    
+    
     <p>
         <a href="https://example.com" target="_blank">Get Rexxle</a>
     </p>
