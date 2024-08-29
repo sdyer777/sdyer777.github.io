@@ -65,12 +65,35 @@
                 cursor: pointer;
                 display: none; /* Hide by default */
             }
+            
+            #footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 10px;
+                font-size: 14px;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                background-color: #f1f1f1;
+            }
+
+            #footer span {
+                margin: 5px 20px; /* Add more space between items */
+            }
+
+            #contact a {
+                text-decoration: none; /* Remove underline from email link */
+                color: inherit; /* Use the same color as the surrounding text */
+            }
+
         </style>
 
 </head>
 <body>
     <h1>Keep Thinking Games</h1>
-    
     
     <div id="message" style="font-size: 18px; margin-top: 20px;"></div>
     <a href="https://apps.apple.com/us/app/your-app-id" target="_blank" id="downloadLink">
@@ -98,14 +121,11 @@
         <img src="Orbs.png" alt="Orbs Theme"/>
     </div>
     <br><br>
-    <center>
-    <table>
-        <tr>
-            <td>&copy 2024 Keep Thinking Games LLC</td>
-            <td width=150></td>
-            <td>Contact Us: <a href="mailto:main@keepthinkinggames.com">main@keepthinkinggames.com</td>
-        </tr>
-    </table>
-    </center>
+        
+    <div id="footer">
+        <span id="copyright">&copy 2024 Keep Thinking Games LLC</span>
+        <span id="contact">Contact Us: <a href="mailto:main@keepthinkinggames.com">main@keepthinkinggames.com</a></span>
+    </div>
+        
 </body>
 </html>
