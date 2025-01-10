@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		962765962D317A9C00F72E10 /* RexxleAppPreview2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RexxleAppPreview2.mp4; sourceTree = "<group>"; };
+		962765972D317AA400F72E10 /* RexxleAppPreview2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = RexxleAppPreview2.txt; sourceTree = "<group>"; };
 		9696E10A2C92490B00E1D2FD /* Privacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Privacy.html; sourceTree = "<group>"; };
 		96ACECC92C5FCAD4001847AB /* CNAME */ = {isa = PBXFileReference; lastKnownFileType = text; path = CNAME; sourceTree = "<group>"; };
 		96ACECCA2C5FCAD4001847AB /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -24,6 +26,7 @@
 		96ACECC22C5FC9C6001847AB = {
 			isa = PBXGroup;
 			children = (
+				962765962D317A9C00F72E10 /* RexxleAppPreview2.mp4 */,
 				96ACECD22C64255E001847AB /* favico.ico */,
 				96ACECD12C642381001847AB /* favicon.png */,
 				96ACECCB2C60110A001847AB /* AppIcon2.png */,
@@ -34,6 +37,7 @@
 				96ACECCE2C60110A001847AB /* Papyrus.png */,
 				96ACECC92C5FCAD4001847AB /* CNAME */,
 				96ACECCA2C5FCAD4001847AB /* index.html */,
+				962765972D317AA400F72E10 /* RexxleAppPreview2.txt */,
 				9696E10A2C92490B00E1D2FD /* Privacy.html */,
 			);
 			sourceTree = "<group>";
