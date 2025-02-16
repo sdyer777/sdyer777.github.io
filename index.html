@@ -43,16 +43,23 @@
                 height: auto;
             }
             @media (max-width: 600px) {
-                .images img {
+                .images img, .images video {
                     flex: 0 1 calc(50% - 10px);
                     max-width: calc(50% - 10px);
                 }
             }
             @media (max-width: 400px) {
-                .images img {
+                .images img, .images video {
                     flex: 0 1 100%;
                     max-width: 100%;
                 }
+            }
+            video {
+                width: 100%;
+                height: auto;
+                max-width: 100%;
+                display: block;
+                object-fit: cover;
             }
 
             #downloadButton {
@@ -97,22 +104,10 @@
     
     <div id="message" style="font-size: 18px; margin-top: 20px;"></div>
     <a href="https://apps.apple.com/us/app/6476448140" target="_blank" id="downloadLink">
-        <button id="downloadButton">Download Rexxle on the App Store</button>
+        <img src = "Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            alt="Download on the App Store"
+            style="Width: 200px;">
     </a>
-
-    <script>
-        function isIOS() {
-            return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-        }
-
-        window.onload = function() {
-            if (isIOS()) {
-                document.getElementById('downloadButton').style.display = 'inline-block';
-            } else {
-                document.getElementById('message').innerText = 'Rexxle is available in the iOS App Store';
-            }
-        };
-    </script>
 
  <div class="images">
      <video width="320" height="240" controls autoplay muted playsinline preload="auto" loop>
